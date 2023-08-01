@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.nav-hero{
+    padding-right: 4rem;
+}
+.left{
+    margin-left: 45rem;
+}
+.icon{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 0.8rem;
+}
+.head{
+    align-items: center;
+    justify-content: space-between;
+}  
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.para{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .para {
+      align-items: center;
+    }
+  }
+    
+.button{
+    background-color: #F46500;
+width: 300px;
+height: 40px;
+padding: 8px 24px;
+
+row-gap: 10px;
+margin-right: 20px;
+}
+.bckg{
+    background-color: #D6F582;
+    padding: 30px 30px 25px 30px;
+}
+.form{
+    padding: 5px 50px 0px 50px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.save{
+    background-color: #F46500;
+width: 100px;
+height: 40px;
+padding: 4px 12px 4px 12px ;
+border-radius: 10px;
+margin-top: 15px;
+}
+.schedule-text{
+    background-color: #F46500;
+    width: 250px;
+    height: 40px;
+    padding: 4px 12px 4px 12px ;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.custom-search{
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    
+}
+.custom-search-input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 100px 15px 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+.custom-search-botton{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #f18408;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 50px;
+    z-index: 3;
+}
+.custom-search-botton a{
+    text-decoration: none;
+    color: white;
+}
+.shift{
+    margin-left: auto;
+    padding-right: 2.5rem;
+}
+.last {
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    color: #000;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+h6 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1rem;
+    letter-spacing: 0.024px;
+}
+.text{
+    text-align: center;
+}
+.footer{
+    background-color: #264301;
+    overflow-y: var(#264301);
+}
