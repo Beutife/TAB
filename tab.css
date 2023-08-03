@@ -30,6 +30,35 @@
     justify-content: center;
     align-items: center
 }
+.image{
+    width:450px;
+    height: 400px;
+    border-radius: 0px 10px 0px 10px;
+}
+.para{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.024px;
+}
+@media screen and (max-width: 480px) {
+    .para {
+      align-items: center;
+    }
+  }
+  
+.manropes{
+    font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+}
+.activities{
+    padding:50px 0px 20px 190px;
+    margin: 20px 0px 20px 80px;
+}    
 .custom-search{
     position: relative;
     width: 300px;
@@ -73,9 +102,9 @@
     width: 100%;
     color: #000;
     margin: 0;
-    margin-bottom: 15px;
-    margin-top: 20px;
+    
 }
+
 h6 a {
     text-decoration: none;
     color: white;
@@ -90,4 +119,8 @@ h6 a {
 .footer{
     background-color: #264301;
     overflow:visible;
+}
+.text-success{
+    background-color: #264301;
+    color: #264301;
 }
